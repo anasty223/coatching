@@ -11,20 +11,17 @@
       crossorigin="anonymous"
     />
     <title>Coatch_site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="/style/main.css" />
     <style>
-      @font-face {
-        font-family: "Montserrat", sans-serif;
-        src: url("./fonts/Montserrat/static/Montserrat-Black.ttf");
-        /* src: url('./fonts/Raleway/static/Raleway-MediumItalic.ttf'); */
-
-        font-weight: normal;
-        font-style: normal;
-      }
+    
 
       @font-face {
         font-family: "Kyiv*Type Serif";
-        src: url("./fonts/kyivtypeserif/TTF/KyivTypeSerif-Black.ttf");
+        src: url("./fonts/kyivtypeserif/KyivTypeSerif-VarGX.ttf");
         font-weight: normal;
         font-style: normal;
       }
@@ -52,28 +49,28 @@
             id="navbarSupportedContent"
           >
             <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end">
-              <li class="nav-item">
+              <li class="nav-item z-3">
                 <a
-                  class="nav-link active"
+                  class="nav-link active  cursor-pointer"
                   aria-current="page"
                   href="#aboutAuthor"
                   >Про мене</a
                 >
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#servises">Послуги</a>
+              <li class="nav-item  z-3 ">
+                <a class="nav-link cursor-pointer" href="#servises">Послуги</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contacts">Контакти</a>
+              <li class="nav-item z-3 ">
+                <a class="nav-link cursor-pointer" href="#contacts">Контакти</a>
               </li>
             </ul>
-            <a class="" href="tel:+38 (095) 075-47-85">+38 (095) 075-47-85</a>
+            <a class="z-3 cursor-pointer" href="tel:+38 (095) 075-47-85">+38 (095) 075-47-85</a>
           </div>
         </div>
       </nav>
     </section>
 
-    <section class="hero">
+    <section class="hero pt-5">
       <div class="hero-content">
 
         <img class="d-block mx-auto img-fluid position-absolute image-shadow" src="./images/shadow.png" alt="shadow" />
@@ -82,7 +79,10 @@
             src="./images/bg-hero.png"
             alt="background"
           />
-       
+       <h1 class=" mt-5 hero-title font-weight-bold">Алла Гічко</h1>
+       <p class="hero-subTitle">КОУЧ | КАР’ЄРНИЙ КОНСУЛЬТАНТ</p>
+       <p class="hero-text mt-2">Ваш партнер на шляху до самореалізації, кр’єрного зростання та роботи в кайф.</p>
+       <button class="hero-button mt-5">Запис на консультацію</button>
       
      
       </div>

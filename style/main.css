@@ -4,7 +4,7 @@ html{
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    font-family: 18px;
+    font-size: 18px;
     font-weight: 500;
     color: #0C0101;
 line-height: 22px;
@@ -71,10 +71,48 @@ top:16px;
 left:690px;
 width: 1280px;
     height: 700px;
-    
+    z-index: 5;
 }
 
      .image-shadow{
         top:-80px;
         left:610px;
+     }
+     .hero-title{
+        font-family: "Kyiv*Type Serif";
+        font-style: normal;
+font-weight: 500;
+font-size: 46px;
+line-height: 55px;
+letter-spacing: 0.13em;
+
+color: #0C0101;
+
+     }
+     .hero-subTitle{
+
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+font-family: 'Montserrat', sans-serif;
+color: #9D1910;
+     }
+     .hero-text{
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+width: 456px;
+
+color: #0C0101
+     }
+     .hero-button{
+        width: 296px;
+        height: 56px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        background-color: #9D1910;
+        color: #FFFFFF;
+        border: none;
      }
