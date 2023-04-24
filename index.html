@@ -95,50 +95,592 @@
       </div>
     </section>
     <h3 class="text-center about-title">Про Мене</h3>
-    <div class="about ">
-
+    <div class="about">
       <!-- <img src="./images/about-image.png" alt="author" class="about-img-author position-absolute"> -->
       <div class="about-content position-relative">
-     
-    <div class="d-flex justify-content-around">
+        <div class="d-flex justify-content-around">
+          <img
+            src="./images/about-shadow.png"
+            alt="image-shadow"
+            class="about-img"
+          />
 
-      <img src="./images/about-shadow.png" alt="image-shadow" class="about-img">
-
-   
-      <div class="about-container-text">
-        <p class="about-text">
-          Я - сертифікований коуч за програмою ICF (International Coaching
-          Federation), кар’єрний консультант, співавтор курсу “Як створити
-          резюме, аби запрошували на співбесіди” та партнер порталу ProWork.
-        </p>
-        <p class="about-text-part">
-          З 2012 року я працювала на посаді HR Manager & Recruiter в
-          українських та міжнародних компаніях (бухгалтерія, маркетинг, IT), у
-          2021 році я пішла на моє перше навчання з коучингу та розпочала
-          приватну практику у коучингу та консультуванні з кар’єри для
-          фахівців та компаній. У 2023 році закінчила друге навчання з
-          коучингу по міжнародній програмі ICF та отримала членство у
-          Міжнародній Федерації Коучів. 
-        </p>
-        <p class="about-text-part">
-          У взаємодії зі мною спеціалісти
-          розкривають свій професійний потенціал, покращують якість та
-          ефективність своєї роботи та підвищують рівень свого життя.
-        </p>
-       
+          <div class="about-container-text">
+            <p class="about-text">
+              Я - сертифікований коуч за програмою ICF (International Coaching
+              Federation), кар’єрний консультант, співавтор курсу “Як створити
+              резюме, аби запрошували на співбесіди” та партнер порталу ProWork.
+            </p>
+            <p class="about-text-part">
+              З 2012 року я працювала на посаді HR Manager & Recruiter в
+              українських та міжнародних компаніях (бухгалтерія, маркетинг, IT),
+              у 2021 році я пішла на моє перше навчання з коучингу та розпочала
+              приватну практику у коучингу та консультуванні з кар’єри для
+              фахівців та компаній. У 2023 році закінчила друге навчання з
+              коучингу по міжнародній програмі ICF та отримала членство у
+              Міжнародній Федерації Коучів.
+            </p>
+            <p class="about-text-part">
+              У взаємодії зі мною спеціалісти розкривають свій професійний
+              потенціал, покращують якість та ефективність своєї роботи та
+              підвищують рівень свого життя.
+            </p>
+          </div>
+          <div class="position-absolute about-img-author">
+            <img src="./images/about-image.png" alt="author" />
+          </div>
+        </div>
+        <div class="rectangle position-absolute">
+          <img src="./images/rectangle1.png" alt="rectangle" />
+        </div>
+        <div class="rectangle2 position-absolute">
+          <img src="./images/rectangle2.png" alt="rectangle" />
+        </div>
       </div>
-      <div class="position-absolute about-img-author">   <img src="./images/about-image.png" alt="author"></div>
+    </div>
+    <section>
+      <h3 class="text-center about-title">Послуги</h3>
+      <div class="services-container">
+        <div class="button-grid">
+          <button class="services-btn" onclick="showModal('modal1')">
+            Корпоративний коучинг
+          </button>
+          <button class="services-btn" onclick="showModal('modal2')">
+            Супровід у працевлаштуванні
+          </button>
+          <button class="services-btn" onclick="showModal('modal3')">
+            Life-коучинг
+          </button>
+          <button class="services-btn" onclick="showModal('modal4')">
+            Підготовка до співбесіди
+          </button>
+          <button class="services-btn" onclick="showModal('modal5')">
+            Кар’єрний коучинг
+          </button>
+          <button class="services-btn" onclick="showModal('modal6')">
+            Створення резюме
+          </button>
+          <button class="services-btn" onclick="showModal('modal7')">
+            Кар’єрна консультація
+          </button>
+          <button class="services-btn" onclick="showModal('modal8')">
+            Фокус-гра “Інтерв’ю на Easy”
+          </button>
+          <button onclick="showModal('modal9')" class="button-9 services-btn">
+            Курс “Як створити резюме, аби запрошували на співбесіди”
+          </button>
+        </div>
+        <!-- Модальное окно -->
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <div class="position-relative">
+              <img
+                class="close position-absolute"
+                onclick="hideModal('modal1')"
+                src="./images/close.svg"
+                alt="close"
+                width="20px"
+              />
+            </div>
+            <div class="box-scroll">
+              <div class="box-text">
+                <h1 class="modal-title mb-4">Корпоративний коучинг</h1>
+                <p class="modal-text-1">
+                  Цей формат роботи допомагає вирішувати проблеми та досягати
+                  поставлених цілей компанії  
+                </p>
+                <ul>
+                  <li class="modal-text-1">
+                    Коучинг для менеджерів дозволяє підвищити їхні лідерські
+                    якості, зміцнити команду і покращити взаємовідносини зі
+                    співробітниками. 
+                  </li>
+                  <li class="modal-text-1">
+                    Коучинг для співробітників допомагає підвищити їх професійні
+                    навички, розвивати потенціал та досягати власних
+                    особистісних цілей.
+                  </li>
+                </ul>
+                <p class="modal-text-1">
+                  Такий формат роботи підходить для компаній, які розвивають
+                  підтримуючу корпоративну культуру та зацікавлені в розкритті
+                  потенціалу своїх співробітників. Коучинг допомагає створити
+                  сприятливу атмосферу в компанії, де кожен співробітник почуває
+                  себе важливим і цінним. Це стимулює продуктивність та розвиток
+                  як співробітників, так і компанії в цілому. Корпоративний
+                  коучинг - це не тільки інвестиція в розвиток співробітників,
+                  але й інвестиція в саму компанію, що дозволяє досягати
+                  більшого успіху та підвищувати її конкурентоспроможність.
+                </p>
+              </div>
+            </div>
 
-    </div>
-  <div class="rectangle position-absolute">  <img src="./images/rectangle1.png" alt="rectangle"></div>
-<div class="rectangle2 position-absolute">    <img src="./images/rectangle2.png" alt="rectangle"></div>
+            <div class="position-relative">
+              <div class="img-modal1 position-absolute">
+                <img
+                  src="./images/modal-1.png"
+                  class="modal-1"
+                  alt="Изображение"
+                />
+              </div>
+            </div>
+            <div class="m-auto">
+              <button class="modal-btn">Замовити послугу</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal2" class="modal">
+          <div class="modal-content">
+            <div class="position-relative">
+              <img
+                class="close position-absolute"
+                onclick="hideModal('modal2')"
+                src="./images/close.svg"
+                alt="close"
+                width="20px"
+              />
+            </div>
+            <div class="box-scroll">
+              <div class="box-text">
+                <h1 class="modal-title mb-4">Супровід у працевлаштуванні</h1>
+                <p class="modal-text-1">
+                  професійна і практична допомога на всіх етапах пошуку роботи,
+                  від створення резюме до прийняття оферу. Супровід у
+                  працевлаштуванні включає 4 зустрічі, тривалістю від 60 до 90
+                  хвилин кожна, домашні завдання та онлайн-підтримку до того
+                  часу, поки ви не знайдете роботу. У супроводі ви підготуєтесь
+                  до всіх етапів пошуку роботи, включаючи: вирішувати проблеми
+                  та досягати поставлених цілей компанії  
+                </p>
+                <ul>
+                  <li class="modal-text-1">
+                    Створення, перевірку та коригування резюме
+                  </li>
+                  <li class="modal-text-1">Адаптацію резюме до ринку праці</li>
+                  <li class="modal-text-1">
+                    Підготовку мотиваційного (супровідного) листа
+                  </li>
+                  <li class="modal-text-1">
+                    Перелік ресурсів для пошуку вакансій та методики якісного
+                    пошуку вакансій
+                  </li>
+                  <li class="modal-text-1">
+                    Перевірку та коригування профілю в LinkedIn та профілів на
+                    сайтах пошуку роботи
+                  </li>
+                  <li class="modal-text-1">
+                    Практичну підготовку до співбесіди та прийняття оферу.
+                  </li>
+                </ul>
+                <p class="modal-text-1">
+                  Крім того, ви матимете додаткову онлайн-підтримку і можете
+                  отримувати відповіді на всі свої запитання та проблеми.
+                </p>
+              </div>
+            </div>
+
+            <div class="position-relative">
+              <div class="img-modal1 position-absolute">
+                <img
+                  src="./images/modal-2.jpg"
+                  class="modal-1"
+                  alt="Изображение"
+                />
+              </div>
+            </div>
+            <div class="m-auto">
+              <button class="modal-btn">Замовити послугу</button>
+            </div>
+          </div>
+        </div>
+        <!-- -------------------modal3------------------- -->
+        <div id="modal3" class="modal">
+          <div class="modal-content">
+            <div class="position-relative">
+              <img
+                class="close position-absolute"
+                onclick="hideModal('modal3')"
+                src="./images/close.svg"
+                alt="close"
+                width="20px"
+              />
+            </div>
+            <div class="box-scroll">
+              <div class="box-text">
+                <h1 class="modal-title mb-4">Life-коучинг</h1>
+                <p class="modal-text-1">
+                  Лайф-коучинг - це ефективний метод, який допомагає людям
+                  розкрити свій потенціал та досягти бажаних результатів.
+                </p>
+
+                <p class="modal-text-1">
+                  Під час сесій лайф-коучингу клієнти отримують можливість
+                  вирішувати повсякденні проблеми, займатися саморозвитком,
+                  досягати особистих цілей та долати кризи, що виникають у
+                  різних сферах особистого життя.
+                </p>
+                <p class="modal-text-1">
+                  Після сесій ви відчуватимете значне покращення у своєму
+                  самопочутті та більшу впевненість у своїх можливостях.
+                </p>
+              </div>
+            </div>
+
+            <div class="position-relative">
+              <div class="img-modal1 position-absolute">
+                <img
+                  src="./images/modal-3.png"
+                  class="modal-1"
+                  alt="Изображение"
+                />
+              </div>
+            </div>
+            <div class="m-auto">
+              <button class="modal-btn">Замовити послугу</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---------------------------modal4--------------------- -->
+
+        <div id="modal4" class="modal">
+          <div class="modal-content">
+            <div class="position-relative">
+              <img
+                class="close position-absolute"
+                onclick="hideModal('modal4')"
+                src="./images/close.svg"
+                alt="close"
+                width="20px"
+              />
+            </div>
+            <div class="box-scroll">
+              <div class="box-text">
+                <h1 class="modal-title mb-4">Підготовка до співбесіди</h1>
+                <p class="modal-text-1">
+                  Підготовка до співбесіди є надзвичайно важливим етапом в
+                  процесі пошуку роботи. Наша індивідуальна робота передбачає не
+                  просто аналіз вакансії, а й ретельне дослідження діяльності
+                  компанії, яка здійснює набір на відкриту посаду. Таким чином,
+                  ми зможемо зрозуміти, які вимоги та очікування ставляться до
+                  майбутнього співробітника та які компетенції та навички
+                  необхідні для успішної роботи в цій компанії.
+                </p>
+
+                <p class="modal-text-1">
+                  Пропрацюємо запитання рекрутера та відпрацюємо відповіді на
+                  них, так щоб ви могли впевнено та аргументовано відповісти на
+                  будь-яке запитання, яке може звучати на співбесіді. Також,
+                  допоможу вам скласти ефективну самопрезентацію та проведемо
+                  тренування з розповіді про себе, щоб ви могли відчути себе
+                  впевнено та готово до проходження співбесіди. Робота займе від
+                  60 до 90 хвилин, під час яких ми зможемо докладно
+                  проаналізувати вакансію та сферу діяльності компанії,
+                  підготувати вас до відповідей на запитання та надати необхідні
+                  рекомендації щодо покращення самопрезентації. Після закінчення
+                  цього етапу ви зможете впевнено та ефективно пройти співбесіду
+                  та довести свою професійну придатність для роботодавця.
+                </p>
+              </div>
+            </div>
+
+            <div class="position-relative">
+              <div class="img-modal1 position-absolute">
+                <img
+                  src="./images/modal-4.png"
+                  class="modal-1"
+                  alt="Изображение"
+                />
+              </div>
+            </div>
+            <div class="m-auto">
+              <button class="modal-btn">Замовити послугу</button>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------------modal5--------------------------------- -->
+
+        <div id="modal5" class="modal">
+          <div class="modal-content">
+            <div class="position-relative">
+              <img
+                class="close position-absolute"
+                onclick="hideModal('modal5')"
+                src="./images/close.svg"
+                alt="close"
+                width="20px"
+              />
+            </div>
+            <div class="box-scroll">
+              <div class="box-text">
+                <h1 class="modal-title mb-4">Кар’єрний коучинг</h1>
+                <p class="modal-text-1">
+                  спрямований на досягнення кар’єрних цілей та подолання
+                  труднощів, що виникають на вашому кар’єрному шляху, наприклад
+                  коли:
+                </p>
+                <ul>
+                  <li class="modal-text-1">
+                    важко визначитись із тим у якій сфері працювати, досягнути
+                    нової сходинки у кар’єрі, хоча ви вже до того готові
+                  </li>
+                  <li class="modal-text-1">
+                    хочете професійної самореалізації або маєте бажання змінити
+                    роботу і знаходитесь у пошуку нових можливостей
+                  </li>
+                  <li class="modal-text-1">
+                    хочете розкрити особистий та професійний потенціал
+                  </li>
+                  <li class="modal-text-1">
+                    бажаєте подолати вигорання на роботі
+                  </li>
+                  <li class="modal-text-1">
+                    потрібно побачити свої слабкі місця та оптимізувати свою
+                    роботу
+                  </li>
+                  <li class="modal-text-1">
+                    хочете подолати можливу кризу при зміні та пошуці роботи
+                  </li>
+                </ul>
+
+                <p class="modal-text-1">
+                  При проведенні коуч-сесій, ви можете визначити для себе, як
+                  краще застосувати свої знання, вміння, навички та досвід.
+                  Виявити ті напрямки розвитку, які будуть для вас найбільш
+                  перспективними. І головне, зможете чітко визначити, як повинна
+                  розвиватися ваша кар’єра в перебігу короткотривалої чи
+                  довгострокової перспективи, яких результатів кар’єрного
+                  зростання ви хочете домогтися і до чого насправді прагнете.
+                </p>
+              </div>
+            </div>
+
+            <div class="position-relative">
+              <div class="img-modal1 position-absolute">
+                <img
+                  src="./images/modal-5.png"
+                  class="modal-1"
+                  alt="Изображение"
+                />
+              </div>
+            </div>
+            <div class="m-auto">
+              <button class="modal-btn">Замовити послугу</button>
+            </div>
+          </div>
+        </div>
+        <!-- ------------------------------modal6-------------------------------------- -->
+
+        <div id="modal6" class="modal">
+          <div class="modal-content">
+            <div class="position-relative">
+              <img
+                class="close position-absolute"
+                onclick="hideModal('modal6')"
+                src="./images/close.svg"
+                alt="close"
+                width="20px"
+              />
+            </div>
+            <div class="box-scroll">
+              <div class="box-text">
+                <h1 class="modal-title mb-4">Створення резюме</h1>
+                <p class="modal-text-1">
+                  Індивідуальна робота по створенню резюме складається з кількох
+                  етапів:
+                </p>
+                <ul>
+                  <li class="modal-text-1">
+                    Коротка зустріч для знайомства, що триває 20 хвилин, ми
+                    обговорюємо організаційні моменти й ви можете вирішити, чи
+                    бажаєте продовжувати співпрацю зі мною.
+                  </li>
+                  <li class="modal-text-1">
+                    Консультація, під час якої ми аналізуємо ваш досвід роботи
+                    та профіль посади, для якої планується створення резюме.
+                    Після цього я надаю рекомендації щодо створення резюме. В
+                    середньому консультація триває 60 - 90 хвилин.
+                  </li>
+                  <li class="modal-text-1">
+                    Ви створюєте нове або оновлюєте старе резюме згідно з моїми
+                    рекомендаціями.
+                  </li>
+                  <li class="modal-text-1">
+                    Ви надсилаєте мені готову версію для перевірки. Якщо
+                    потрібні будуть ще правки, я зверну на це увагу і надам
+                    додаткові рекомендації (письмово або голосовим
+                    повідомленням) до досягнення довершеного вигляду. Якщо все
+                    вийде добре з першого разу, то також повідомлю вас про це.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="position-relative">
+              <div class="img-modal1 position-absolute">
+                <img
+                  src="./images/modal-6.png"
+                  class="modal-1"
+                  alt="Изображение"
+                />
+              </div>
+            </div>
+            <div class="m-auto">
+              <button class="modal-btn">Замовити послугу</button>
+            </div>
+          </div>
+        </div>
+        <!-- ------------------------------------modal7----------------------------------------------- -->
+
+        <div id="modal7" class="modal">
+          <div class="modal-content">
+            <div class="position-relative">
+              <img
+                class="close position-absolute"
+                onclick="hideModal('modal7')"
+                src="./images/close.svg"
+                alt="close"
+                width="20px"
+              />
+            </div>
+            <div class="box-scroll">
+              <div class="box-text">
+                <h1 class="modal-title mb-4">Кар'єрна консультація</h1>
+                <p class="modal-text-1">
+                  професійний підхід до підготовки фахівця до пошуку роботи. Під
+                  час консультації ви
+                </p>
+                <ul>
+                  <li class="modal-text-1">
+                    отримаєте індивідуальну підтримку
+                  </li>
+                  <li class="modal-text-1">поради про те, як скласти резюме</li>
+                  <li class="modal-text-1">
+                    поради про те, як підготуватись до співбесіди
+                  </li>
+                  <li class="modal-text-1">
+                    поради про те, як підібрати найкращі для вашого випадку
+                    ресурси з пошуку роботи.
+                  </li>
+                </ul>
+                <p class="modal-text-1">
+                  Кар'єрна консультація буде корисною як для початківців, так і
+                  для тих, хто має досвід роботи та бажає навчитися ефективнішим
+                  методам пошуку вакансій. Консультації також допоможуть вам
+                  створити ефективний профіль на LinkedIn, що стане важливим
+                  інструментом для вашого кар'єрного зростання та привернення
+                  уваги потенційних роботодавців. В результаті кар'єрної
+                  консультації ви зможете знайти роботу, яка відповідає вашим
+                  потребам та вимогам.
+                </p>
+              </div>
+            </div>
+
+            <div class="position-relative">
+              <div class="img-modal1 position-absolute">
+                <img
+                  src="./images/modal-7.png"
+                  class="modal-1"
+                  alt="Изображение"
+                />
+              </div>
+            </div>
+            <div class="m-auto">
+              <button class="modal-btn">Замовити послугу</button>
+            </div>
+          </div>
+        </div>
+        <!-- ---------------------modal8------------------------- -->
+        <div id="modal8" class="modal">
+          <div class="modal-content">
+            <div class="position-relative">
+              <img
+                class="close position-absolute"
+                onclick="hideModal('modal8')"
+                src="./images/close.svg"
+                alt="close"
+                width="20px"
+              />
+            </div>
+            <div class="box-scroll">
+              <div class="box-text">
+                <h1 class="modal-title mb-4">Фокус-гра "Інтерв'ю на Easy"
+                </h1>
+                <p class="modal-text-1">
+                  Співбесіда - це важливий етап у пошуку роботи, але для багатьох вона може бути досить страшною та напруженою. Запрошую на гру "Інтерв'ю на Easy", яка допоможе зробити процес менш напруженим та більш ефективним.
+
+                </p>
+                
+                <p class="modal-text-1">
+                  Під час підготовки до співбесіди в міні-групі максимум 5 чоловік, ви дізнаєтеся про те, як підготуватись до співбесіди, якою є структура співбесіди, зможете відпрацювати самопрезентацію та відповісти на питання рекрутера. Ви також зможете налаштуватися до співбесіди, на яку запрошується кілька наймаючих спеціалістів. Під час гри ви зможете почути, як інші учасники відповідають на запитання, розширите свою зону комфорту та морально підготуєтесь до цього процесу.
+                  Тривалість гри в середньому 2,5 години, що дає вам більше часу на те, щоб отримати значну кількість корисної інформації та навичок. В ході гри ви зможете отримати безцінний досвід, який допоможе вам не тільки під час співбесіди, але й у подальшому пошуку роботи. Крім того,такий формат дозволяє зробити процес підготовки до співбесіди цікавішим та менш напруженим, оскільки вона відбувається у формі гри.
+                  
+                </p>
+              </div>
+            </div>
+
+            <div class="position-relative">
+              <div class="img-modal1 position-absolute">
+                <img
+                  src="./images/modal-8.png"
+                  class="modal-1"
+                  alt="Изображение"
+                />
+              </div>
+            </div>
+            <div class="m-auto">
+              <button class="modal-btn">Замовити послугу</button>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------modal9------------------------------------  -->
+        <div id="modal9" class="modal">
+          <div class="modal-content">
+            <div class="position-relative">
+              <img
+                class="close position-absolute"
+                onclick="hideModal('modal9')"
+                src="./images/close.svg"
+                alt="close"
+                width="20px"
+              />
+            </div>
+            <div class="box-scroll">
+              <div class="box-text">
+                <h1 class="modal-title mb-4">Курс “Як створити резюме, аби запрошували на співбесіди”"
+                </h1>
+                <p class="modal-text-1">
+                  
+
+
+                </p>
+               
+              </div>
+            </div>
+
+            <div class="position-relative">
+              <div class="img-modal1 position-absolute">
+                <img
+                  src="./images/modal-9.png"
+                  class="modal-1"
+                  alt="Изображение"
+                />
+              </div>
+            </div>
+            <div class="m-auto">
+              <button class="modal-btn">Замовити послугу</button>
+            </div>
+          </div>
+        </div>
+        <!-- ---------------------------------------------------------------------  -->
       </div>
-    
-    </div>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/buttons.js"></script>
   </body>
 </html>
