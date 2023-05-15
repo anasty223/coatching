@@ -119,6 +119,9 @@ a {
     top: -80px;
     left: 610px;
   }
+  .mobile-img-bg{
+    display: none !important;
+  }
   .hero-title {
     font-family: "Kyiv*Type Serif";
     font-style: normal;
@@ -565,18 +568,21 @@ a {
   .hero-img-author{
     display: none;
   }
+  .mobile-img-bg{
+    display: none !important;
+  }
 }
 
 
 /* -------------end tablet ----------- */
 @media (max-width: 767px) {
-  .hero .img-bg {
+  /* .hero .img-bg {
     content: url('../images/bg-mobile.png');
     position: absolute;
     top: -60px;
     left: 0;
     z-index: -1;
-  }
+  } */
 
   body {
     overflow: hidden;
@@ -646,8 +652,11 @@ height: 55px;
   }
   .hero-img-author{
     position: absolute;
-    top: -36px;
-    left: 18px;
+    top: 0;
+    left: 50px;
+    width: 70%;
+    height: auto;
+    z-index: 111111;
   }
   .hero-content{
     margin-left: auto;
@@ -684,7 +693,9 @@ color: #9D1910;
   .about-img-author{
     position: absolute;
     top: 20px;
-    left: 65px;
+    left:25px;
+    width: 100%;
+    height: auto;
   }
   .desktop-about-author{
     display: none;
@@ -697,6 +708,17 @@ color: #9D1910;
   margin-top: 25px;
   text-align: start;
   padding-left: 15px;
+}
+.img-bg{
+  display: none !important;
+}
+.mobile-img-bg{
+  position: absolute;
+  top: -61px;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: auto;
 }
 }
 
