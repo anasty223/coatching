@@ -30,71 +30,53 @@
   </head>
   <body>
     <!-- HEADER  -->
-    <section class="pt-lg-3 header z-3">
+    <section class="pt-lg-3 header">
       <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"> Лого</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <a class="navbar-brand " href="#">Лого</a>
+          <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-close d-none">✕</span>
           </button>
-          <div
-            class="collapse navbar-collapse me-auto d-lg-flex justify-content-end"
-            id="navbarSupportedContent"
-          >
+          
+          <div class="collapse navbar-collapse me-auto d-lg-flex justify-content-end" id="navbarSupportedContent">
+      
             <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end">
-              <li class="nav-item z-3">
-                <a
-                  class="nav-link active cursor-pointer"
-                  aria-current="page"
-                  href="#aboutAuthor"
-                  >Про мене</a
-                >
+            
+              <li class="nav-item">
+                <a class="nav-link current cursor-pointer " href="#aboutAuthor">Про мене</a>
               </li>
-              <li class="nav-item z-3">
+              <li class="nav-item">
                 <a class="nav-link cursor-pointer" href="#servises">Послуги</a>
               </li>
-              <li class="nav-item z-3">
+              <li class="nav-item">
                 <a class="nav-link cursor-pointer" href="#contacts">Контакти</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link cursor-pointer" href="tel:+38 (095) 075-47-85">+38 (095) 075-47-85</a>
+              </li>
             </ul>
-            <a class="z-3 cursor-pointer" href="tel:+38 (095) 075-47-85"
-              >+38 (095) 075-47-85</a
-            >
           </div>
         </div>
       </nav>
     </section>
+    
+    
 
-    <section class="hero pt-5">
-      <div class="hero-content">
-        <img
-          class="d-block mx-auto img-fluid position-absolute image-shadow"
-          src="./images/shadow.png"
-          alt="shadow"
-        />
-        <img
-          class="img-fluid mx-auto d-block img-bg"
-          src="./images/bg-hero.png"
-          alt="background"
-        />
-        <h1 class="mt-5 hero-title font-weight-bold">Алла Гічко</h1>
+    <section class="hero">
+      <div class="hero-content container-fluid">
+        <img class="mx-auto img-fluid  image-shadow" src="./images/shadow.png" alt="shadow" />
+        <img class="mx-auto  img-fluid  hero-img-author" src="./images/mobile-hero-author.png" alt="shadow" />
+        <img class="img-fluid mx-auto d-block img-bg" src="./images/bg-hero.png" alt="background" />
+        <h1 class=" hero-title font-weight-bold">Алла Гічко</h1>
         <p class="hero-subTitle">КОУЧ | КАР’ЄРНИЙ КОНСУЛЬТАНТ</p>
-        <p class="hero-text mt-2">
-          Ваш партнер на шляху до самореалізації, кр’єрного зростання та роботи
-          в кайф.
+        <p class="hero-text ">
+          Ваш партнер на шляху до самореалізації,кар'єрного зростання та роботи в кайф.
         </p>
-        <button class="hero-button mt-5">Запис на консультацію</button>
+        <button class="hero-button ">Запис на консультацію</button>
       </div>
     </section>
-    <h3 class="text-center about-title">Про Мене</h3>
+    <h3 id="aboutAuthor" class="text-center about-title">Про Мене</h3>
     <div class="about">
       <!-- <img src="./images/about-image.png" alt="author" class="about-img-author position-absolute"> -->
       <div class="about-content position-relative">
@@ -138,7 +120,7 @@
         </div>
       </div>
     </div>
-    <section>
+    <section id="servises">
       <h3 class="text-center about-title">Послуги</h3>
       <div class="services-container">
         <div class="button-grid">
@@ -707,9 +689,9 @@
       </div>
     </section>
 
-    <section class="contacts">
+    <section class="contacts"id="contacts">
       <h3 class="text-center about-title m-0">Контакти</h3>
-      <div class="d-flex">
+      <div class="d-flex justify-content-center">
         <img class="contacts-img" src="./images/contacts.png" alt="author" />
         <div>
           <p class="contacts-text">
@@ -718,28 +700,30 @@
           </p>
           <ul>
             <li>
-              <img src="./images/phone.png" alt="telegram icon" /><a
+      
+              <img class="tel-red" src="./images/tel.svg" alt="telegram icon" />
+              <a
                 href="tel:+38(095)075-47-85"
                 >+38 (095) 075-47-85</a
               >
             </li>
             <li>
               <img
-                src="./images/telegram.png"
+                src="./images/telegram.svg"
                 alt="telegram icon"
               />@hichko_coach
             </li>
             <li>
-              <img src="./images/in.png" alt="telegram icon" /><a
+              <img src="./images/in.svg" alt="telegram icon" /><a
                 href="https://www.linkedin.com/in/ahichko/"
                 >www.linkedin.com/in/ahichko</a
               >
             </li>
             <li>
-              <img src="./images/insta.png" alt="telegram icon" />@alla_hichko
+              <img src="./images/insta.svg" alt="telegram icon" />@alla_hichko
             </li>
             <li>
-              <img src="./images/email.png" alt="telegram icon" /><a
+              <img src="./images/email.svg" alt="telegram icon" /><a
                 href="mailto:hichko.coach@gmail.com"
                 >hichko.coach@gmail.com</a
               >
@@ -793,10 +777,10 @@
           <h3 class="footer-title">Є питання?</h3>
           <p class="footer-text">Залиште cвої контакти і я з Вами зв’яжусь</p>
         </div>
-        <div class="d-flex">
+        <div class="d-flex justify-content-center">
           <input class="footer-input1"  type="text" placeholder="Ім’я" /> <input  class="footer-input2"  type="text" placeholder="Телефон"  /><input  class="footer-input3"   type="text" placeholder="Коментар"  />
         </div>
-        <button type="button" class=" mt-5 footer-btn">Відправити</button>
+        <button type="button" class=" mt-5  footer-btn">Відправити</button>
      
       </section>
     </div>
