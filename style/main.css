@@ -705,9 +705,12 @@ color: #9D1910;
   }
 
 .about-container-text{
-  margin-top: 25px;
+  height: 260px;
+  margin-top: 45px;
   text-align: start;
   padding-left: 15px;
+  padding-right: 25px;
+
 }
 .img-bg{
   display: none !important;
@@ -720,7 +723,98 @@ color: #9D1910;
   width: 100%;
   height: auto;
 }
+.about-text{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+
+/* Black */
+
+color: #0C0101;
 }
+
+.bg-about{
+background-color: #EDEDED;
+padding-bottom: 28px;
+}
+
+
+.box-scroll-mobile{
+  overflow: auto;
+    overflow-x: hidden;
+  }
+
+
+  .box-scroll-mobile::-webkit-scrollbar {
+    width: 8px; /* ширина для вертикального скролла */
+    height: 12px; /* высота для горизонтального скролла */
+    border-top: 50%;
+    background-color: transparent;
+  }
+  .box-scroll-mobile::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    background: linear-gradient(
+      29.6deg,
+      #c9973f 35.19%,
+      #f5db77 54.3%,
+      #d6aa4f 81.14%,
+      #fde681 104.34%,
+      #d4a84d 118.44%
+    );
+  }
+.rectangle{
+  display: none;
+}
+.rectangle2{
+  display: none;
+}
+
+
+.services-container {
+  background-image: url(../images/mobile-bg-services.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+
+.services-btn {
+  background: #ffffff;
+  box-shadow: 4px 4px 26px rgba(0, 0, 0, 0.35),
+    inset -4px -4px 14px rgba(0, 0, 0, 0.15),
+    inset 4px 4px 14px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  
+  /* Black */
+  
+  color: #0C0101;
+  display: flex;
+
+  text-align: start;
+height: 68px;
+  color: #0c0101;
+  width: 100%;
+  margin-top: 24px;
+  padding-left: 20px;
+}
+}
+
 
 
 
