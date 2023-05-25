@@ -176,11 +176,10 @@ a {
 
     color: #0c0101;
     margin-bottom: 80px;
-    margin-top: 120px;
+
   }
   .about-content {
-    /* padding-left: 85px;
-      padding-right: 85px; */
+
     max-width: 1280px;
     margin: 0 auto;
 
@@ -748,48 +747,17 @@ a {
 .rectangle2{
   display: none;
 }
-  .about {
-    background-color: #ededed;
-    height: 727px;
-  }
-  .about-title {
-    font-family: "Kyiv*Type Serif";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 46px;
-    line-height: 55px;
-    letter-spacing: 0.13em;
 
-    color: #0c0101;
-    margin-bottom: 80px;
-  }
-
-  .about-content {
-    margin: 0 auto;
-    background-color: #ededed;
-    box-sizing: border-box;
-  }
-.about-img{
-  position: absolute;
-  top: -26px;
-  left: -270px;
-}
-  .about-img-author {
-    top: 78px;
-    left: -85px;
-    display: block;
-    z-index: 2;
-    
-  }
   .about-text {
-
-    /* width: 468px; */
+   
+   
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     color: #0c0101;
+padding: 0 20px 0 20px;
   }
   .about-text-part {
     font-family: "Montserrat";
@@ -797,8 +765,9 @@ a {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    /* width: 468px; */
+ 
     color: #0c0101;
+    padding:0 20px 0  20px;
   }
 .about-container-text{
  
@@ -816,7 +785,7 @@ a {
 .rectangle-tablete2{
   position: absolute;
   top: 125px;
-  left: 82px;
+  left: 110px;
 }
 }
 
@@ -825,6 +794,44 @@ a {
 @media (max-width: 1200px) {
   .img-bg1 {
     display: none !important;
+  }
+
+  .hero-content {
+    /* padding-bottom: 280px; */
+    padding-left: 39px;
+  }
+    .about {
+    background-color: #ededed;
+    height: 727px;
+  }
+  .about-title {
+    font-family: "Kyiv*Type Serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 55px;
+    letter-spacing: 0.13em;
+margin-top: 200px;
+    color: #0c0101;
+    margin-bottom: 80px;
+  }
+    .about-content {
+    margin: 0 auto;
+    background-color: #ededed;
+    box-sizing: border-box;
+
+  }
+.about-img{
+  position: absolute;
+  top: -26px;
+  left: -270px;
+}
+  .about-img-author {
+    top: 78px;
+    left: -85px;
+    display: block;
+    z-index: 2;
+    
   }
 }
 /* ------------------------end tablet */
