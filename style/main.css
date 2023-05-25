@@ -79,7 +79,7 @@ a {
 
   .hero {
     position: relative;
-    padding-bottom: 218px;
+    /* padding-bottom: 218px; */
 
     padding-top: 5rem;
   }
@@ -643,7 +643,9 @@ a {
     width: 25%;
     text-align: center;
   }
-
+.hero{
+      /* padding-bottom: 218px; */
+}
   .hero-img-author {
     display: none;
   }
@@ -728,7 +730,7 @@ a {
     color: #0c0101;
   }
   .hero-content {
-    padding-bottom: 280px;
+    padding-bottom: 140px;
     padding-left: 39px;
   }
 
@@ -787,6 +789,7 @@ padding: 0 20px 0 20px;
   top: 125px;
   left: 110px;
 }
+
 }
 
 /* -------------end tablet ----------- */
@@ -797,7 +800,7 @@ padding: 0 20px 0 20px;
   }
 
   .hero-content {
-    /* padding-bottom: 280px; */
+    padding-bottom:220px;
     padding-left: 39px;
   }
     .about {
@@ -811,8 +814,9 @@ padding: 0 20px 0 20px;
     font-size: 46px;
     line-height: 55px;
     letter-spacing: 0.13em;
-margin-top: 200px;
+
     color: #0c0101;
+    margin-top: 80px;
     margin-bottom: 80px;
   }
     .about-content {
@@ -832,6 +836,49 @@ margin-top: 200px;
     display: block;
     z-index: 2;
     
+  }
+  .services-container {
+    background-image: url(../images/tablet-services-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    /* padding-left: 85px;
+    padding-right: 85px; */
+    padding-top: 80px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+  }
+  .button-grid {
+  
+    display: flex;
+    flex-direction: column; 
+    .services-btn {
+      background: #ffffff;
+      box-shadow: 4px 4px 26px rgba(0, 0, 0, 0.35),
+        inset -4px -4px 14px rgba(0, 0, 0, 0.15),
+        inset 4px 4px 14px rgba(0, 0, 0, 0.15);
+      border-radius: 5px;
+      border: none;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      display: flex;
+      align-items: center;
+  
+      color: #0c0101;
+      display: flex;
+  
+      text-align: start;
+      min-height: 104px;
+      height: 100%;
+      color: #0c0101;
+      width: 100%;
+      margin-top: 32px;
+      padding-left: 20px;
+    }
+  
   }
 }
 /* ------------------------end tablet */
@@ -912,6 +959,7 @@ margin-top: 200px;
     z-index: 111111;
   }
   .hero-content {
+    padding-bottom:90px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1070,7 +1118,7 @@ margin-top: 200px;
     letter-spacing: 0.13em;
     color: #0c0101;
     margin-bottom: 60px;
-    margin-top: 60px;
+    /* margin-top: 60px; */
   }
   .contacts {
     margin-top: 60px;
@@ -1458,4 +1506,5 @@ margin-top: 200px;
 
     color: #9d1910;
   }
+  
 }
