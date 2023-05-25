@@ -852,33 +852,120 @@ padding: 0 20px 0 20px;
   
     display: flex;
     flex-direction: column; 
-    .services-btn {
-      background: #ffffff;
-      box-shadow: 4px 4px 26px rgba(0, 0, 0, 0.35),
-        inset -4px -4px 14px rgba(0, 0, 0, 0.15),
-        inset 4px 4px 14px rgba(0, 0, 0, 0.15);
-      border-radius: 5px;
-      border: none;
-      font-family: "Montserrat";
-      font-style: normal;
-      font-weight: 600;
-      font-size: 18px;
-      line-height: 22px;
-      display: flex;
-      align-items: center;
+   
   
-      color: #0c0101;
-      display: flex;
-  
-      text-align: start;
-      min-height: 104px;
-      height: 100%;
-      color: #0c0101;
-      width: 100%;
-      margin-top: 32px;
-      padding-left: 20px;
-    }
-  
+  }
+
+  .services-btn {
+    background: #ffffff;
+    box-shadow: 4px 4px 26px rgba(0, 0, 0, 0.35),
+      inset -4px -4px 14px rgba(0, 0, 0, 0.15),
+      inset 4px 4px 14px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    border: none;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    color: #0c0101;
+    display: flex;
+
+    text-align: start;
+    min-height: 104px;
+    height: 100%;
+    color: #0c0101;
+    width: 100%;
+    margin-top: 32px;
+    padding-left: 20px;
+  }
+
+  .contacts-container{
+    padding-top:56px ;
+    padding-bottom:56px ;
+    padding-left: 30px;
+    padding-right: 39px;
+
+  }
+  .list-contacts{
+    padding: 0;
+  }
+  .contacts-text{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+color: #0C0101;
+  }
+  .contacts-tablet-container{
+    /* border: 2px solid red; */
+    /* margin-left:60px ; */
+    /* padding-top: 85px;
+    padding-bottom: 85px; */
+  }
+  .contacts-img-rec{
+    display: none;
+  }
+  .section-tense{
+    padding-top: 85px;
+  }
+  .quotes1{
+    display: none;
+  }
+  .quotes2{
+    display: none;
+  }
+.contacts-link{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+/* Black */
+
+color: #0C0101;
+}
+  .bg-tense{
+    z-index: 2;
+    color: #0c0101;
+
+    background-image: url(../images/bg-contacts-tablete.png);
+    padding-bottom: 27px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .tense-text-first{
+    padding-left: 64px;
+    padding-right: 40px;
+    font-family: 'Kyiv*Type Serif';
+font-style: normal;
+font-weight: 350;
+font-size: 28px;
+line-height: 34px;
+letter-spacing: 0.13em;
+
+color: #0C0101;
+  }
+  .tense-text-second{
+    margin-top: 32px;
+    padding-left: 117px;
+    padding-right: 39px;
+    font-family: 'Kyiv*Type Serif';
+font-style: normal;
+font-weight: 350;
+font-size: 28px;
+line-height: 34px;
+letter-spacing: 0.13em;
+
+color: #0C0101;
   }
 }
 /* ------------------------end tablet */
