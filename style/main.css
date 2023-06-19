@@ -625,7 +625,7 @@ a {
   }
 }
 
-/* -------------------end-------------- */
+/* -------------------end descktop-------------- */
 
 /* tablet---------------- */
 @media (min-width: 768px) {
@@ -856,6 +856,130 @@ padding: 0 20px 0 20px;
   
   }
 
+  /* modal tablet  */
+
+  .modal {
+    display: none; /* Скрыть модальное окно по умолчанию */
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    /* width: 100%;
+    height: 100%; */
+    background-color: rgba(0, 0, 0, 0.5); /* Цвет фона */
+    z-index: 9999; /* Положение окна на странице */
+  }
+
+  .modal-content {
+    padding-top: 80px;
+    margin: 10% auto;
+    max-width: 692px;
+    background-image: url(../images/modal-bg.png);
+    height: 700px;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    scrollbar-width: thin;
+
+    padding-right: 20px;
+  }
+
+.modal-1{
+  display: none;
+}
+  .box-scroll {
+    overflow: auto;
+    overflow-x: hidden;
+  }
+  .box-scroll::-webkit-scrollbar {
+    width: 8px; /* ширина для вертикального скролла */
+    height: 12px; /* высота для горизонтального скролла */
+    border-top: 50%;
+    background-color: transparent;
+  }
+
+  /* ползунок скроллбара */
+
+  .box-scroll::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    background: linear-gradient(
+      29.6deg,
+      #c9973f 35.19%,
+      #f5db77 54.3%,
+      #d6aa4f 81.14%,
+      #fde681 104.34%,
+      #d4a84d 118.44%
+    );
+  }
+  .img-modal1 {
+    width: 280.54px;
+    height: 314.26px;
+    bottom: 60px;
+    left: 10px;
+  }
+  .modal-1 {
+    width: 350px;
+  }
+
+  .modal-4 {
+    display: none;
+  }
+  /* Стили для кнопок */
+
+  .modal-btn {
+    width: 296px;
+    height: 56px;
+    background: #9d1910;
+    box-shadow: -2px 4px 17px rgba(108, 18, 12, 0.2);
+
+    border: none;
+    color: white;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+  }
+  .modal-text-1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* Black */
+
+    color: #0c0101;
+  }
+  .modal-title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* display: flex;
+  align-items: flex-end; */
+
+    color: #0c0101;
+  }
+  .box-text {
+    /* width: 500px; */
+    /* height: 408px; */
+margin-right: 64px;
+    margin-left: 120px;
+  }
+  .close {
+    top: -57px;
+    right: 4px;
+  }
+
+
+  /* end modal tablet  */
   .services-btn {
     background: #ffffff;
     box-shadow: 4px 4px 26px rgba(0, 0, 0, 0.35),
@@ -902,24 +1026,14 @@ line-height: 22px;
 
 color: #0C0101;
   }
-  .contacts-tablet-container{
-    /* border: 2px solid red; */
-    /* margin-left:60px ; */
-    /* padding-top: 85px;
-    padding-bottom: 85px; */
-  }
+
   .contacts-img-rec{
     display: none;
   }
   .section-tense{
     padding-top: 85px;
   }
-  .quotes1{
-    display: none;
-  }
-  .quotes2{
-    display: none;
-  }
+
 .contacts-link{
   font-family: 'Montserrat';
 font-style: normal;
@@ -934,7 +1048,8 @@ align-items: center;
 color: #0C0101;
 }
   .bg-tense{
-    z-index: 2;
+    z-index: -2;
+    position: relative;
     color: #0c0101;
 
     background-image: url(../images/bg-contacts-tablete.png);
@@ -943,6 +1058,8 @@ color: #0C0101;
     background-size: cover;
   }
   .tense-text-first{
+    position: relative;
+    z-index: 1!important;
     padding-left: 64px;
     padding-right: 40px;
     font-family: 'Kyiv*Type Serif';
@@ -955,6 +1072,7 @@ letter-spacing: 0.13em;
 color: #0C0101;
   }
   .tense-text-second{
+position: relative;
     margin-top: 32px;
     padding-left: 117px;
     padding-right: 39px;
@@ -964,10 +1082,21 @@ font-weight: 350;
 font-size: 28px;
 line-height: 34px;
 letter-spacing: 0.13em;
-
+z-index: 2;
 color: #0C0101;
   }
-
+  .quotes1{
+    /* display: none; */
+    position: absolute;
+    top: -75px;
+    left: 0px;
+    z-index: 0;
+  }
+  .quotes2{
+    bottom: -25px;
+    right: 50px;
+    z-index: 1;
+  }
   .footer-bg{
     background-image: url(../images/bg-tablet-footer.png);
 
@@ -1575,7 +1704,7 @@ color: #FFFFFF;
     padding-top: 16px;
   }
 
-  /* ---------------modal-------------- */
+  /* ---------------modal mobile-------------- */
   .modal {
     display: none; /* Скрыть модальное окно по умолчанию */
     position: fixed;
@@ -1588,30 +1717,6 @@ color: #FFFFFF;
     z-index: 9999; /* Положение окна на странице */
   }
 
-  .modal-content {
-    /* padding-top: 80px; */
-    margin: 10% auto;
-    max-width: 920px;
-    background-image: url(../images/modal-mobile-bg.png);
-
-    background-repeat: no-repeat;
-
-    background-size: cover;
-    scrollbar-width: thin;
-    padding: 10px;
-    padding-right: 40px;
-  }
-
-  .box-scroll {
-    overflow: auto;
-    overflow-x: hidden;
-  }
-  .box-scroll::-webkit-scrollbar {
-    width: 8px; /* ширина для вертикального скролла */
-    height: 12px; /* высота для горизонтального скролла */
-    border-top: 50%;
-    background-color: transparent;
-  }
 
   /* ползунок скроллбара */
 
@@ -1627,22 +1732,36 @@ color: #FFFFFF;
       #d4a84d 118.44%
     );
   }
+  .modal-content {
+    padding-top: 350px;
+    margin: 10% auto;
+    max-width: 375px;
+  
+    /* height: 700px; */
 
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    scrollbar-width: thin;
+
+    padding-right: 15px;
+  }
   .modal-1 {
-    display: none;
+    display: block;
+    position: absolute;
+    top: -150px;
+    left: 0px;
   }
 
   .modal-title {
     font-family: "Montserrat";
     font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
     color: #0c0101;
-    margin-top: 54px;
-    justify-content: center;
+
   }
   .close {
     top: 0%;
@@ -1650,9 +1769,7 @@ color: #FFFFFF;
   }
 
   .modal-btn {
-    width: 296px;
-    height: 56px;
-    background: #9d1910;
+
     box-shadow: -2px 4px 17px rgba(108, 18, 12, 0.2);
 
     border: none;
@@ -1709,5 +1826,5 @@ color: #FFFFFF;
 
     color: #9d1910;
   }
-  
+
 }
