@@ -1008,7 +1008,7 @@ color: #FFFFFF;
   }
   .footer-input1{
 
-   width: 330px;
+   width: 100%;
     background: #ffffff;
     box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
     height: 56px;
@@ -1019,14 +1019,14 @@ color: #FFFFFF;
   }
   .footer-input2{
     padding-left: 16px;
-  
+    width: 100%;
     background: #ffffff;
     box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
     height: 56px;
     outline: none;
     border: none;
 
-  width: 330px;
+
  
   }
   .footer-input3{
@@ -1076,6 +1076,10 @@ color: #FFFFFF;
     text-align: center;
     color: #0c0101;
     padding-top: 16px;
+  }
+  .container-mobile-flex{
+    display: flex;
+
   }
 }
 /* ------------------------end tablet */
@@ -1426,7 +1430,9 @@ color: #FFFFFF;
   .container-text-tense {
     z-index: 10000;
   }
-
+  .container-mobile-flex{
+    display: block;
+  }
   .footer-bg {
     background-image: url(../images/bg-contacts-mobile.png);
 
