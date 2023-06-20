@@ -8,9 +8,11 @@
 
 	// функция для скрытия модального окна
 	function hideModal(modalId) {
-		var modal = document.getElementById(modalId);
-		modal.style.display = "none";
-	}
+    var modal = document.getElementById(modalId);
+    modal.style.display = "none";
+   
+  }
+  
 
 // Получаем все ссылки в меню
 const links = document.querySelectorAll('.nav-link');
@@ -58,3 +60,88 @@ var navbarToggler = document.querySelector('.navbar-toggler');
       });
     });
   });
+
+  function openModalHero() {
+    document.getElementById("modalHero").style.display = "block";
+  }
+  
+  // Функція, яка закриває модальне вікно
+  function closeModalHero() {
+    document.getElementById("modalHero").style.display = "none";
+  }
+
+  function openModalCorporative() {
+    document.getElementById("formConsultation").style.display = "block";
+  }
+  
+  // Функція, яка закриває модальне вікно
+  function closeModalCorporative() {
+    document.getElementById("formConsultation").style.display = "none";
+  }
+
+// ----------------------------
+
+  function openModal() {
+    document.getElementById("formmodal3").style.display = "block";
+  }
+  
+  // Функція, яка закриває модальне вікно
+  function closeModal() {
+    document.getElementById("formmodal3").style.display = "none";
+  }
+// -------------------------
+  
+  function openModal() {
+    document.getElementById("modalConsultation4").style.display = "block";
+  }
+  
+  // Функція, яка закриває модальне вікно
+  function closeModal() {
+    document.getElementById("modalConsultation4").style.display = "none";
+  }
+// -----------------------
+  function openModal() {
+    document.getElementById("modalConsultation5").style.display = "block";
+  }
+  
+  // Функція, яка закриває модальне вікно
+  function closeModal() {
+    document.getElementById("modalConsultation5").style.display = "none";
+  }
+// ------------------------------
+  function openModal() {
+    document.getElementById("modalConsultation6").style.display = "block";
+  }
+  
+  // Функція, яка закриває модальне вікно
+  function closeModal() {
+    document.getElementById("modalConsultation6").style.display = "none";
+  }
+// ---------------------------
+  function openModal() {
+    document.getElementById("modalConsultation7").style.display = "block";
+  }
+  
+  // Функція, яка закриває модальне вікно
+  function closeModal() {
+    document.getElementById("modalConsultation7").style.display = "none";
+  }
+
+  // -------------------------
+  function openModal() {
+    document.getElementById("modalConsultation8").style.display = "block";
+  }
+  
+  // Функція, яка закриває модальне вікно
+  function closeModal() {
+    document.getElementById("modalConsultation8").style.display = "none";
+  }
+// --------------------------
+  function openModal() {
+    document.getElementById("modalConsultation9").style.display = "block";
+  }
+  
+  // Функція, яка закриває модальне вікно
+  function closeModal() {
+    document.getElementById("modalConsultation9").style.display = "none";
+  }
