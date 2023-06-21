@@ -1,0 +1,54 @@
+
+.formmodalID9 {
+    display: none; 
+    position: fixed;
+    z-index: 111111;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  
+  .modal-contentformmodalID9{
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    border-radius: 10px;
+  }
+  
+  .closeformmodalID9{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .closeformmodalID9:hover,
+  .closeformmodalID9:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .button-modal-formmodalID9{
+    width: 100%;
+    height: 56px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: #9d1910;
+    color: #ffffff;
+    border: none;
+    margin-top: 3rem;
+  }
+  .formmodalID9-input-modal{
+    background: #ffffff;
+      box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+      width: 100%;
+      height: 56px;
+      border: none;
+      padding-left: 16px;
+      margin-bottom: 10px;
+  }
