@@ -19,6 +19,9 @@
     />
 
     <link rel="stylesheet" type="text/css" href="/style/main.css" />
+    <link rel="stylesheet" type="text/css" href="/style/modal/modalHero.css" />
+    <link rel="stylesheet" type="text/css" href="/style/modal/modal1.css" />
+    <link rel="stylesheet" type="text/css" href="/style/modal/modal2.css" />
     <link rel="stylesheet" type="text/css" href="/style/modal/modal3.css" />
     <link rel="stylesheet" type="text/css" href="/style/modal/modal4.css" />
     <link rel="stylesheet" type="text/css" href="/style/modal/modal5.css" />
@@ -26,6 +29,14 @@
     <link rel="stylesheet" type="text/css" href="/style/modal/modal7.css" />
     <link rel="stylesheet" type="text/css" href="/style/modal/modal8.css" />
     <link rel="stylesheet" type="text/css" href="/style/modal/modal9.css" />
+
+
+   
+    <!-- <link rel="stylesheet" href="/style/media-queries/media-queries-min-width-376.css">
+    <link rel="stylesheet" href="/style/media-queries/media-queries-max-width-767.css">
+    <link rel="stylesheet" href="/style/media-queries/media-queries-max-width-1200.css">
+    <link rel="stylesheet" href="/style/media-queries/media-queries-min-width-768.css">
+    <link rel="stylesheet" href="/style/media-queries/media-queries-min-width-1200.css"> -->
 
     <style>
       @font-face {
@@ -323,29 +334,29 @@
               </div>
             </div>
             <div class="m-auto mt-5 mb-5">
-              <button class="modal-btn" onclick="openModalCorporative()">Замовити послугу</button>
+              <button class="modal-btn" onclick="openModalId1()">Замовити послугу</button>
             </div>
           </div>
         </div>
 
-        <div id="formConsultation" class="modalConsultation">
-          <div class="modal-contentConsultation">
+        <div id="formmodal1" class="formmodal1">
+          <div class="modal-formmodal1">
           
-            <span class="closeConsultation" onclick="closeModalCorporative()">&times;</span>
+            <span class="closeformmodal1" onclick="closeModalId1()">&times;</span>
         
           
-            <form id="formConsultation" action="#"  class="form"> 
+            <form id="closeformmodalId1" action="#"  class="closeformmodalId1"> 
          <!-- Hidden Required Fields -->
      <input type="hidden" name="project_name" value="coutching">
      <input type="hidden" name="admin_email" value="anasty22@gmail.com">
      <input type="hidden" name="form_subject" value="Корпоративний коучинг">
      <!-- END Hidden Required Fields -->
-              <input name="name" class="hero-input-modal" type="text" placeholder="Ім'я">
+              <input name="name" class="formmodal1-input-modal" type="text" placeholder="Ім'я">
   
-              <input name="phone" class="hero-input-modal" type="tel" placeholder="Телефон">
+              <input name="phone" class="formmodal1-input-modal" type="tel" placeholder="Телефон">
           
         
-              <button type="submit" class="button-modal-hero" onclick="submitForm()">Відправити</button>
+              <button type="submit" class="button-modal-formmodal1" onclick="submitForm()">Відправити</button>
 
             </form>
           </div>

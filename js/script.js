@@ -44,7 +44,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 
 	//E-mail Ajax Send
-	$("formConsultation").submit(function() { //Change
+	$("closeformmodalId1").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
@@ -231,10 +231,10 @@ $(document).ready(function() {
 });
 
 function submitForm() {
-	closeModalCorporative();
+	closeModalId1();
 	hideModal('modal1');
 
-	hideModal('modal2')
+
   }
 
   function submitFormformmodal3() {

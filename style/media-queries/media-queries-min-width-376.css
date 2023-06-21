@@ -1,0 +1,18 @@
+@media (min-width: 376px) {
+    .nav-item {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .nav-link:hover {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+  
+      color: #9d1910;
+    }
+  
+  }

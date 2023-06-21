@@ -70,13 +70,13 @@ var navbarToggler = document.querySelector('.navbar-toggler');
     document.getElementById("modalHero").style.display = "none";
   }
 
-  function openModalCorporative() {
-    document.getElementById("formConsultation").style.display = "block";
+  function openModalId1() {
+    document.getElementById("formmodal1").style.display = "block";
   }
   
   // Функція, яка закриває модальне вікно
-  function closeModalCorporative() {
-    document.getElementById("formConsultation").style.display = "none";
+  function closeModalId1() {
+    document.getElementById("formmodal1").style.display = "none";
   }
 
 // ----------------------------
