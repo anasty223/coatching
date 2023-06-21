@@ -65,7 +65,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 
 	//E-mail Ajax Send
-	$("formmodal3").submit(function() { //Change
+	$("formmodalId3").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
@@ -85,7 +85,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 
 	//E-mail Ajax Send
-	$("formmodal4").submit(function() { //Change
+	$("formmodalid3").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
@@ -107,28 +107,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 
 	//E-mail Ajax Send
-	$("modalConsultation4").submit(function() { //Change
-		var th = $(this);
-		$.ajax({
-			type: "POST",
-			url: "mail.php", //Change
-			data: th.serialize()
-		}).done(function() {
-			alert("Thank you!");
-			setTimeout(function() {
-				// Done Functions
-				th.trigger("reset");
-			}, 1000);
-		});
-		return false;
-	});
-
-});
-
-$(document).ready(function() {
-
-	//E-mail Ajax Send
-	$("modalConsultation5").submit(function() { //Change
+	$("formmodalId4").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
@@ -149,7 +128,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 
 	//E-mail Ajax Send
-	$("modalConsultation6").submit(function() { //Change
+	$("formmodalId5").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
@@ -170,7 +149,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 
 	//E-mail Ajax Send
-	$("modalConsultation7").submit(function() { //Change
+	$("closeformmodalId6").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
@@ -191,7 +170,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 
 	//E-mail Ajax Send
-	$("modalConsultation8").submit(function() { //Change
+	$("formmodalId7").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
@@ -212,7 +191,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 
 	//E-mail Ajax Send
-	$("modalConsultation9").submit(function() { //Change
+	$("formmodalId8").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
@@ -229,3 +208,70 @@ $(document).ready(function() {
 	});
 
 });
+
+$(document).ready(function() {
+
+	//E-mail Ajax Send
+	$("formmodalId9").submit(function() { //Change
+		var th = $(this);
+		$.ajax({
+			type: "POST",
+			url: "mail.php", //Change
+			data: th.serialize()
+		}).done(function() {
+			alert("Thank you!");
+			setTimeout(function() {
+				// Done Functions
+				th.trigger("reset");
+			}, 1000);
+		});
+		return false;
+	});
+
+});
+
+function submitForm() {
+	closeModalCorporative();
+	hideModal('modal1');
+
+	hideModal('modal2')
+  }
+
+  function submitFormformmodal3() {
+	closeModalId3();
+	hideModal('modal2')
+
+
+  }
+
+  function submitFormformmodalID3() {
+	closeModalID3();
+	hideModal('modal3')
+  }
+
+  function submitFormformmodalID4() {
+	closeModalID4();
+	hideModal('modal4')
+
+  }
+  function submitFormformmodalID5() {
+	closeModalID5();
+	hideModal('modal5')
+
+  }
+  function submitFormformmodalID6() {
+	closeModalID6();
+	hideModal('modal6')
+  }
+  function submitFormformmodalID7() {
+	closeModalID7();
+	hideModal('modal7')
+  }
+  function submitFormformmodalID8() {
+	closeModalID8();
+	hideModal('modal8')
+  }
+  function submitFormformmodalID9() {
+	closeModalID9();
+	hideModal('modal9')
+  }

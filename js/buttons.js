@@ -81,67 +81,76 @@ var navbarToggler = document.querySelector('.navbar-toggler');
 
 // ----------------------------
 
-  function openModal() {
+  function openModalId3() {
     document.getElementById("formmodal3").style.display = "block";
   }
   
   // Функція, яка закриває модальне вікно
-  function closeModal() {
+  function closeModalId3() {
     document.getElementById("formmodal3").style.display = "none";
   }
 // -------------------------
   
-  function openModal() {
-    document.getElementById("modalConsultation4").style.display = "block";
+  function openModalID3() {
+    document.getElementById("formmodalID3").style.display = "block";
   }
   
   // Функція, яка закриває модальне вікно
-  function closeModal() {
-    document.getElementById("modalConsultation4").style.display = "none";
+  function closeModalID3() {
+    document.getElementById("formmodalID3").style.display = "none";
   }
 // -----------------------
-  function openModal() {
-    document.getElementById("modalConsultation5").style.display = "block";
+  function openModalID4() {
+    document.getElementById("formmodalID4").style.display = "block";
   }
-  
   // Функція, яка закриває модальне вікно
-  function closeModal() {
-    document.getElementById("modalConsultation5").style.display = "none";
+  function closeModalID4() {
+    document.getElementById("formmodalID4").style.display = "none";
   }
+
 // ------------------------------
-  function openModal() {
-    document.getElementById("modalConsultation6").style.display = "block";
+
+  function openModalID5() {
+    document.getElementById("formmodalID5").style.display = "block";
   }
-  
-  // Функція, яка закриває модальне вікно
-  function closeModal() {
-    document.getElementById("modalConsultation6").style.display = "none";
+  function closeModalID5() {
+    document.getElementById("formmodalID5").style.display = "none";
   }
+
 // ---------------------------
-  function openModal() {
-    document.getElementById("modalConsultation7").style.display = "block";
+  function openModalID6() {
+    document.getElementById("formmodalID6").style.display = "block";
   }
   
   // Функція, яка закриває модальне вікно
-  function closeModal() {
-    document.getElementById("modalConsultation7").style.display = "none";
+  function closeModalID6() {
+    document.getElementById("formmodalID6").style.display = "none";
   }
 
   // -------------------------
-  function openModal() {
-    document.getElementById("modalConsultation8").style.display = "block";
+  function openModalID7() {
+    document.getElementById("formmodalID7").style.display = "block";
   }
   
   // Функція, яка закриває модальне вікно
-  function closeModal() {
-    document.getElementById("modalConsultation8").style.display = "none";
+  function closeModalID7() {
+    document.getElementById("formmodalID7").style.display = "none";
   }
 // --------------------------
-  function openModal() {
-    document.getElementById("modalConsultation9").style.display = "block";
+  function openModalID8() {
+    document.getElementById("formmodalID8").style.display = "block";
   }
   
   // Функція, яка закриває модальне вікно
-  function closeModal() {
-    document.getElementById("modalConsultation9").style.display = "none";
+  function closeModalID8() {
+    document.getElementById("formmodalID8").style.display = "none";
+  }
+
+  function openModalID9() {
+    document.getElementById("formmodalID9").style.display = "block";
+  }
+  
+  // Функція, яка закриває модальне вікно
+  function closeModalID9() {
+    document.getElementById("formmodalID9").style.display = "none";
   }
