@@ -46,6 +46,8 @@ section {
 a {
   color: #000;
   text-decoration: none;
+  
+font-weight: 700;
 }
 .list {
   list-style: none;
@@ -69,8 +71,16 @@ a {
     padding-left: 85px;
     padding-right: 85px;
   }
-  .nav-item {
+
+  .navbar-nav .nav-item {
+
+    text-align: center;
     margin-right: 72px;
+    font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
   }
 
   .nav-item:last-child {
@@ -176,7 +186,7 @@ a {
 
     color: #0c0101;
     margin-bottom: 80px;
-
+margin-top: 120px;
   }
   .about-content {
 
@@ -213,7 +223,7 @@ a {
     margin-top: 168px;
     font-family: "Montserrat";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 18px;
     line-height: 22px;
 
@@ -222,11 +232,11 @@ a {
     color: #0c0101;
   }
   .about-text-part {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 500;
+    font-family: Montserrat;
     font-size: 18px;
-    line-height: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 
     width: 593px;
 
@@ -408,7 +418,7 @@ a {
   .contacts-text {
     font-family: "Montserrat";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 24px;
     line-height: 29px;
 
@@ -433,7 +443,7 @@ a {
   }
   .section-tense {
     padding-top: 120px;
-    padding-bottom: 100px;
+
   }
   .bg-tense {
     background-image: url(../images/bg-tense.png);
@@ -449,11 +459,11 @@ a {
   .tense-text-first {
     font-family: "Kyiv*Type Serif";
     font-style: normal;
-    font-weight: 350;
+    font-weight: 400;
     font-size: 28px;
     line-height: 34px;
     letter-spacing: 0.13em;
-
+margin-bottom: 40px;
     color: #0c0101;
     padding-right: 340px;
     padding-left: 180px;
@@ -623,29 +633,21 @@ a {
   .tablet-img-bg {
     display: none;
   }
+
 }
 
 /* -------------------end descktop-------------- */
 
 /* tablet---------------- */
 @media (min-width: 768px) {
-  .navbar-nav {
-    width: 100%;
-    justify-content: space-between;
-  }
+
   .mobile-about-author {
     display: none;
   }
   .mobile-about-img {
     display: none;
   }
-  .navbar-nav .nav-item {
-    width: 25%;
-    text-align: center;
-  }
-.hero{
-      /* padding-bottom: 218px; */
-}
+
   .hero-img-author {
     display: none;
   }
@@ -730,7 +732,7 @@ a {
     color: #0c0101;
   }
   .hero-content {
-    padding-bottom: 140px;
+    padding-bottom: 50px;
     padding-left: 39px;
   }
 
@@ -755,7 +757,7 @@ a {
    
     font-family: "Montserrat";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 18px;
     line-height: 22px;
     color: #0c0101;
@@ -764,7 +766,7 @@ padding: 0 20px 0 20px;
   .about-text-part {
     font-family: "Montserrat";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     line-height: 22px;
  
@@ -798,7 +800,20 @@ padding: 0 20px 0 20px;
   .img-bg1 {
     display: none !important;
   }
+  .navbar-nav .nav-item {
 
+    text-align: center;
+    /* margin-right: 62px; */
+    font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .navbar-nav .nav-item:last-child{
+    /* margin-right: 82px; */
+  
+  }
   .hero-content {
     padding-bottom:220px;
     padding-left: 39px;
@@ -1020,7 +1035,7 @@ margin-right: 64px;
   .contacts-text{
     font-family: 'Montserrat';
 font-style: normal;
-font-weight: 500;
+font-weight: 700;
 font-size: 18px;
 line-height: 22px;
 
@@ -1037,7 +1052,7 @@ color: #0C0101;
 .contacts-link{
   font-family: 'Montserrat';
 font-style: normal;
-font-weight: 600;
+font-weight: 700;
 font-size: 18px;
 line-height: 22px;
 display: flex;
@@ -1046,6 +1061,10 @@ align-items: center;
 /* Black */
 
 color: #0C0101;
+}
+
+.contacts-link-style{
+  font-weight: 700; 
 }
   .bg-tense{
     z-index: -2;
@@ -1248,13 +1267,18 @@ color: #FFFFFF;
   }
   .navbar-nav {
     padding-top: 74px;
+        font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
   }
 
   .nav-item {
     position: relative;
     font-family: "Montserrat";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     display: flex;
@@ -1286,7 +1310,7 @@ color: #FFFFFF;
     left: 50px;
     width: 70%;
     height: auto;
-    z-index: 111111;
+    z-index: 1111;
   }
   .hero-content {
     padding-bottom:90px;
@@ -1358,7 +1382,7 @@ color: #FFFFFF;
   .about-text {
     font-family: "Montserrat";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
     line-height: 20px;
 
@@ -1488,7 +1512,7 @@ color: #FFFFFF;
   .contacts-text {
     font-family: "Montserrat";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     line-height: 20px;
 

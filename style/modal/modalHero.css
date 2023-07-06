@@ -9,14 +9,18 @@
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5); 
   }
-  
+  @media (max-width: 767px) {
+    /* .modal-contentHero { width: 100%;    z-index: 111111111;} */
+  }
   .modal-contentHero {
     background-color: #fefefe;
     margin: 10% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 40%;
+    width: 60%;
     border-radius: 10px;
+    z-index: 111111111;
+    position: relative;
   }
   
   .closeHero {
@@ -50,6 +54,8 @@
       border: none;
       padding-left: 16px;
       margin-bottom: 10px;
+      backface-visibility: hidden;
+
   }
   
   
